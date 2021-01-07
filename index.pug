@@ -1,0 +1,215 @@
+.wrapper
+  .header.js-header
+    .container
+      .navbar.clearfix.navbar-collapse
+        a.navbar__logo
+        a.menu-toggle(href="#overlay")
+          span
+          span
+          span
+        #overlay.nav.navbar__nav.popup-nav.clearfix
+          ul.menu.nav__menu.clearfix
+            li
+              a.menu__item(href="#secondPage") O nás
+            li
+              a.menu__item(href="#thirdPage") Služby
+            li
+              a.menu__item(href="#4thPage") Portfólio
+            li
+              a.menu__item(href="#5thPage") Kontakt
+          .nav__icon-group
+            a.icon-btn(href="#")
+              i.icon.icon-fb
+            a.icon-btn(href="#")
+              i.icon.icon-ig
+          a.popup-close(href="#!")
+            span
+            span
+
+  #fullpage
+    .section.hero.hero--bg-covered(data-anchor="firstPage")
+      .section__inner
+        .container
+          .rellax(data-rellax-speed="-4")
+            h1.heading Drevené terasy
+              br 
+              | ...späť ku koreňom!
+            a.btn(href="#") Áno, Mám záujem!
+      a.scrolldown-btn(href="#secondPage")
+    .section(data-anchor="secondPage")
+      .section__inner
+        .container
+          .row
+            .col-sm-5
+              .info
+                h2.info__title O nás
+                h3.info__subtitle Naše nápady pretavíme vo váš prospech.
+                p.info__text Drevené terasy sú väčšinou iba vedľajším produktom iných služieb spojených s výstavbou domu. Zastávame však názor, že výroba drevených terás si zaslúži technické zameranie, a preto sme sa plne zamerali na výstavbu drevených terás.
+                br
+                br
+                | “Sme malý ale zároveň mocní, sme nerozvážni, hoci múdrejší, ako si myslíte, sme projektanti, ale predovšetkým sme Váš spoľahlivý partner.”
+                br
+                br
+                | Aj k naceňovaniu pristupujeme veľmi dôkladne (aby nám neušiel žiadny detial), spolu s cenovou ponukou od nás obdržíte aj vypracovanú štúdiu a nákres Vašej budúcej terasy - teraz bezplatne! Chcete?
+            .col-xs-5.col-xs-push-4.col-sm-2.col-sm-push-2
+              .parallax-container.parallax-container-about
+                .frame
+                  .frame__inner.rellax(data-rellax-speed="4")
+                img.image.rellax(
+                  src="http://travel.wong.com.tw/img/images/about.png",
+                  alt="",
+                  data-rellax-speed="2"
+                )
+    .section(data-anchor="thirdPage")
+      .section__inner
+        .container-fluid
+          .row
+            .col-sm-4.col-sm-push-6
+              .info
+                h2.info__title SLUŽBY
+                h3.info__subtitle Čo Vám vieme ponúknuť?
+                p.info__text Plánovanie a realizácia kvalitných drevených terás. Ponúkame Vám kompletný balík poradenstva, plánovania, finálnej montáže a pravidelnej údržby. Vždy sa zameriavame na najvyššiu kvalitu a udržateľnosť, ako aj na poradenstvo zamerané na Vaše individuálne potreby. 
+                a.btn.info__btn(href="#") Áno, Mám záujem!
+            .col-sm-6.col-sm-pull-4
+              .parallax-container.parallax-container-service
+                img.image.rellax(
+               src="http://travel.wong.com.tw/img/images/service.png",
+                  alt="",
+                  data-rellax-speed="2"
+                )
+                .frame
+                  .frame__inner.rellax(data-rellax-speed="6")
+
+    .section(data-anchor="4thPage") 
+      .section__inner
+        .container
+          .info
+            h2.info__title Drevené terasy
+            h3.info__subtitle Z celého sveta až ku Vám domov!
+          .thumbnails.owl-carousel
+            //- .row
+              //- .col-sm-3
+            .thumbnail
+              .thumbnail__imgbox
+                img.image(
+                  src="https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/52581044_303479846956468_7256312392932392960_o.jpg?_nc_cat=103&ccb=2&_nc_sid=cdbe9c&_nc_ohc=kyGKQ5U0am4AX_1V5NB&_nc_ht=scontent-vie1-1.xx&oh=eb3612642234075ffd16edf3c216e2f5&oe=6018226A",
+                  alt=""
+                )
+              a.thumbnail__title(href="") Drevené masívne terasy 
+              p.thumbnail__text Ipe, Cumaru, Garapa, Sibírsky smrekovec, 
+            //- .col-sm-3
+            .thumbnail
+              .thumbnail__imgbox
+                img.image(
+                  src="https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/109862903_581468042490979_2689427595999466738_o.jpg?_nc_cat=102&ccb=2&_nc_sid=8bfeb9&_nc_ohc=PkjucY32hCQAX8Tv7gL&_nc_ht=scontent-vie1-1.xx&oh=c2037711cd9c989542d82a204580c4b9&oe=60197395",
+                  alt=""
+                )
+              a.thumbnail__title(href="") Termodrevo
+              p.thumbnail__text Termojaseň, Termoborovica
+            //- .col-sm-3
+            .thumbnail
+              .thumbnail__imgbox
+                img.image(
+                  src="https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/91556989_518648505439600_7553903053305282560_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=1wiWLG2dG2QAX_7Vspw&_nc_ht=scontent-vie1-1.xx&oh=4ecac3b25b1676c5fcf71ef0ec2aeb52&oe=601A6E81",
+                  alt=""
+                )
+              a.thumbnail__title(href="") Drevoplastové terasy 
+              p.thumbnail__text WPC (Wood plastic compozit) - UPM, Gardin Natur
+            //- .col-sm-3
+            .thumbnail
+              .thumbnail__imgbox
+                img.image(
+                  src="https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/108877946_581468242490959_2840757484118631546_o.jpg?_nc_cat=106&ccb=2&_nc_sid=8bfeb9&_nc_ohc=q6IrX_o92ecAX82HGuR&_nc_ht=scontent-vie1-1.xx&oh=c697fb2622299a68435e82898ee50700&oe=60191744",
+                  alt=""
+                )
+              a.thumbnail__title(href="") Drevené fasády a obklady
+              p.thumbnail__text Termoborovica, Sibírsky smrekovec, Smrek
+
+    .section(data-anchor="5thPage") 
+      .section__inner
+        .container
+          .row
+            .col-sm-6
+              .info
+                h2.info__title KONTAKT
+                h3.info__subtitle Celé západné Slovensko !
+                p.info__text Realizujeme vysoko kvalitné drevené terasy, fasády, obklady a iné. Sledujeme najnovší vývoj a trendy vo svete drevených terás. Dbáme predovšetkým na to, aby všetky terasové krytiny, každá drevená terasa, každá palubovka a každá drevená terasa zodpovedali našim vysokým štandardom kvality!
+              .contact
+                .contact__item
+                  h5.contact__label Email
+                  a.contact__link(href="#") martin.fabian8@gmail.com
+                .contact__item
+                  h5.contact__label Tel
+                  a.contact__link(href="#") +421 910 484 739
+                .contact__item
+                  h5.contact__label Address
+                  a.contact__link(href="#") Hlohovec 920 01
+            .col-sm-6
+              .parallax-container.parallax-container-contact
+                .frame
+                  .frame__inner.rellax(data-rellax-speed="6")
+                img.image.rellax(
+                  src="http://travel.wong.com.tw/img/images/contact.png",
+                  alt="",
+                  data-rellax-speed="2"
+                )
+
+    .section.fp-auto-height
+      .footer
+        .container
+          a.footer__logo(href="#")
+          .row
+            .col-sm-2.col-xs-6
+              ul.list
+                li
+                  a.list__link(href="#secondPage") O nás
+                li
+                  a.list__link(href="#thirdPage") Služby
+                li
+                  a.list__link(href="#4thPage") Portfólio
+                li
+                  a.list__link(href="5thPage") Kontakt
+            .col-sm-2.col-xs-6
+              ul.list
+                li
+                  a.list__link(href="#", target="_blank") FAQ
+                li
+                  a.list__link(href="#thirdPage", target="_blank") Order
+                li
+                  a.list__link(href="#4thPage", target="_blank") Shop
+            .col-sm-4.col-xs-12
+              .contact
+                .contact__item
+                  h5.contact__label Email
+                  a.contact__link(href="#") martin.fabian8@gmail.com
+                .contact__item
+                  h5.contact__label Tel
+                  a.contact__link(href="#") +421 910 484 739
+                .contact__item
+                  h5.contact__label Address
+                  a.contact__link(href="#") Hlohovec 920 01
+            .col-sm-4.col-xs-12
+              .footer__icon-group
+                a.icon-btn(href="#")
+                  i.icon.icon-fb
+                a.icon-btn(href="#")
+                  i.icon.icon-ig
+          .copyright
+            p Copyright © 2020 Fabian
+
+  ul#js-menu.side-nav
+    li.active(data-menuanchor="firstPage")
+      a.side-nav__item(href="#firstPage") 
+        span W
+    li(data-menuanchor="secondPage")
+      a.side-nav__item(href="#secondPage") 
+        span O
+    li(data-menuanchor="thirdPage")
+      a.side-nav__item(href="#thirdPage") 
+        span O
+    li(data-menuanchor="4thPage")
+      a.side-nav__item(href="#4thPage") 
+        span D
+    li(data-menuanchor="5thPage")
+      a.side-nav__item(href="#5thPage") 
+        span Y
